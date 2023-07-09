@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+  height: 100vh;
+}
+/*.................................................................. home container.........................................*/
+.Home__container {
+  width: 100%;
+  height: 100%;
+}
+/*....................................................................... Nav Bar..........................................*/
+.Nav__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 44, 44);
+}
+.logo__container {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoimage {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  cursor: pointer;
+}
+.pages_container {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.pages {
+  display: flex;
+  list-style-type: none;
+}
+.page {
+  font-size: 1.2rem;
+  margin-right: 25px;
+  transition: 0.25s;
+}
+.page:hover {
+  box-shadow: rgba(250, 201, 6, 0.24) 0px 3px 8px;
+  transform: translateY(-5px);
+  font-size: 1.3rem;
+}
+.text__page {
+  text-decoration: none;
+  color: white;
+}
+/*...........................................................................home image.....................................................*/
+.Homeimage__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.Homeimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Homeimagetext__container {
+  width: 15%;
+  position: absolute;
+  top: 220px;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 60px;
+}
+.Homeimagetext__first {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.Homeimagetext__second {
+  font-size: 1.2rem;
+}
+.order {
+  width: 55%;
+  height: 35px;
+  color: white;
+  background-color: rgb(199, 126, 31);
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.order:hover {
+  height: 40px;
+  background-color: rgb(187, 59, 13);
+  box-shadow: rgba(255, 77, 0, 0.429) 0px 54px 55px,
+    rgba(255, 77, 0, 0.429) 0px -12px 30px, rgba(255, 77, 0, 0.429) 0px 4px 6px,
+    rgba(255, 77, 0, 0.429) 0px 12px 13px, rgba(255, 77, 0, 0.429) 0px -3px 5px;
+  transform: translateY(5px);
+}
+/*...........................................Footer............................*/
+.footer__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 44, 44);
+}
+.icon__container {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.icon-wrapper__contaienr {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.icon {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.icon:hover {
+  font-size: 3.5rem;
+  box-shadow: rgba(255, 179, 1, 0.24) 0px 3px 8px;
+  transform: translateY(5px);
+}
+.footer__text {
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: white;
+}
+/*.........................................................about us..................................*/
+.aboutus__container {
+  width: 100%;
+  height: 100%;
+}
+.content__container {
+  width: 100%;
+  height: 50%;
+}
+.aboutusimage__container {
+  width: 100%;
+  height: 400px;
+}
+.aboutusimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutus-text__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.aboutus-text-first__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.aboutus-text-first {
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.aboutus-text-second__container {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus-text-second {
+  font-size: 1.2rem;
+}
+/*............................................................Contact..............................................*/
+.contact__container {
+  width: 100%;
+  height: 80%;
+}
+.contact-content__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.contactimage__container {
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(186, 155, 155),
+    rgb(114, 97, 97)
+  );
+}
+.contactimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 4px 4px 0;
+}
+.data__container {
+  width: 50%;
+  padding: 70px 50px 20px 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(186, 155, 155),
+    rgb(114, 97, 97)
+  );
+}
+.contact-text__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.contact-text {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.form__container {
+  width: 80%;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 1rem;
+  padding-bottom: 17px;
+  color: rgb(101, 68, 68);
+}
+.input {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  transition: 0.25s;
+}
+.input:focus {
+  box-shadow: rgba(13, 60, 155, 0.711) 0px 5px 15px;
+}
+.sendmessage-btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(185, 143, 91);
+  color: white;
+  font-size: 0.95rem;
+  transition: 0.25s;
+}
+.sendmessage-btn:hover {
+  box-shadow: rgba(237, 157, 9, 0.549) 0px 5px 15px;
+  background-color: rgb(216, 135, 37);
+}
+/*...................................Mainmenu...................................*/
+.mainmenu__container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(211, 136, 136),
+    rgb(46, 25, 25)
+  );
+}
+
+
+/*..................menu..................................*/
+.menu__container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(234, 155, 64),
+    rgb(164, 48, 48)
+  );
+}
+.menutitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:5%;
+  padding-top: 30px;
+}
+/*.............................cards..............................*/
+.cards__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  
+
+}
+/*.................................card........................................*/
+.card__container {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  
+}
+.menuimage__container {
+  width: 100%;
+  height: 50%;
+
+}
+.menuimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0;
+}
+.menu-content__container {
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(172, 122, 61, 0.525);
+}
+.menuname{
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  text-decoration: none;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menuprice{
+
+  box-shadow: rgba(0, 0, 0, 0.351) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+}
