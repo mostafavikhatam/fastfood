@@ -6,6 +6,7 @@ import Contact from "./Components/Contact/Contact";
 import Nav from "../src/Components/Nav";
 import Footer from "../src/Components/Footer";
 import MainMenu from "./Components/Menu/MainMenu";
+import NotFounded from "./Components/NotFounded";
 import "../public/style.css";
 import { menuData } from "./Components/Menu/data";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu/:id" element={<MainMenu data={menuData} />} />
+        <Route path="*" element={<NotFounded/>}/>
       </Routes>
       <Footer />
     </div>

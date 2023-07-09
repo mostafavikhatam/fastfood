@@ -364,3 +364,18 @@
   box-shadow: rgba(0, 0, 0, 0.351) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   
 }
+.notfound{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(131, 36, 36),
+    rgb(73, 22, 22)
+  );
+  z-index: 99;
+  position: absolute;
+  font-size: 2rem;
+}
